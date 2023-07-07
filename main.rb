@@ -1,6 +1,8 @@
 require_relative 'build_box'
 
-build_box = BuildBox.new('1000')
+room_name = '1000'
+
+build_box = BuildBox.new(room_name)
 build_box.clear_boxes()
 build_box.set_box_size(0.5)
 build_box.set_build_interval(0.01)
